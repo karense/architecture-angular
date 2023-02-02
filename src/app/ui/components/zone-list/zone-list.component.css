@@ -1,0 +1,68 @@
+.container {
+    width: 100rem;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: .1rem solid #CCCCCC;
+    border-radius: .5rem;
+    margin: .2rem;
+    color: black;
+    border-color: transparent;
+    gap: 1rem;
+}
+
+.zone{
+    width: 60rem;
+    height: 7rem;
+    border-radius: .5rem;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.zone h1{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background: #CCCCCC;
+    margin: .5rem;
+    padding: 1rem 1rem;
+    border-radius: .5rem;
+    width: 5rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.delete{
+   
+    background-color: #C70039;
+    border-color: transparent;
+    color: white;
+}

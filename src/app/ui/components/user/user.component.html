@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" [(ngModel)]="name" >
+    </div>
+    <div>
+        <label for="job">Job</label>
+        <input type="text" name="job" id="job" [(ngModel)]="job">
+    </div>
+    <button type="submit">Enviar</button>
+</form>
